@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+  }
+  
+  /* Style for the greeting message */
+  .greeting {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+
+  }
