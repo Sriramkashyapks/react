@@ -1,6 +1,7 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 
 //props is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
+
 
 function Student(props) {
     return (
