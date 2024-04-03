@@ -1,4 +1,5 @@
 import { useLayoutEffect } from "react";
+import PropTypes from "prop-types";
 
 function List(props) {
 
@@ -15,5 +16,18 @@ function List(props) {
                 <h3 className="list-category">{category}</h3>
                 <ol className="list-items">{listItems}</ol>
            </>);
+}
+
+List.PropTypes = {
+    category: PropTypes.string,
+    items: PropTypes.arrayOf(PropTypes.shape({id: PropTypes.number,
+                                              name: PropTypes.string,
+                                              calories: PropTypes.number})),
+}
+
+List.defaultProps = {
+    category: "category",
+    items: [],  
+
 }
 export default List;
