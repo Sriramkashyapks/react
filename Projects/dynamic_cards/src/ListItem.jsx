@@ -6,7 +6,7 @@ const ListItem = (props) => {
 
     const filterSort = data
         .filter((anime) => parseFloat(anime.ratings) > 8) // Filter anime with ratings > 9.5
-        .sort((a, b) => (a.name > b.name ? 1 : -1)); // Sort anime by name
+        .sort((a, b) => (a.ratings > b.ratings)); // Sort anime by name
 
     const listItems = filterSort.map((anime) => (
         <Card
