@@ -8,8 +8,9 @@
   box-shadow: 5px 5px 5px #a0a0a0;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  display: grid;
-  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 227, 0.783);
 }
 
 .card-left,
@@ -21,14 +22,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100px;
+  max-width: 500px;
   border-radius: 20px;
-  margin-left: 35%;
   border-radius: 20px;
 }
 .picture-holder img {
   max-width: 100%;
-  padding: 10px;
+  padding: 5px;
   border-radius: 20px;
 }
 
