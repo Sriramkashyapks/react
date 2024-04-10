@@ -15,6 +15,8 @@ const ListItem = (props) => {
             description={anime.description}
             rating={anime.ratings}
             img={anime.img}
+            reviews={anime.reviews}
+            studios={anime.studios}
         />
     ));
 
