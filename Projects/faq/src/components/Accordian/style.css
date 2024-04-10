@@ -1,6 +1,14 @@
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(55, 55, 55);
+    margin-bottom: 20px;
+
+}
+
 .wrapper{
     display: flex;
-    height: 100vh;
+    height: 94vh;
     width: 100vw;
     justify-content: center;
     align-items: center;

@@ -10,8 +10,10 @@ export default function Accordion() {
   }
 
   return (
+    <>
     <div className="wrapper">
       <div className="accordion">
+      <h1 className="heading">FAQ's</h1>
         {data && data.length > 0 ? (
           data.map((dataItem) => (
             <div className="item" key={dataItem.id}>
@@ -31,5 +33,6 @@ export default function Accordion() {
         )}
       </div>
     </div>
+    </>
   );
 }
