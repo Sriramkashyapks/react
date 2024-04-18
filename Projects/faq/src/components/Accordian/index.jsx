@@ -1,8 +1,8 @@
-import data from "./data.jsx";
 import { useState } from "react";
 import './style.css';
+import data from "./data.jsx";
 
-export default function Accordion() {
+function Accordion() {
   const [selected, setSelected] = useState(null);
 
   function handleSingleSelection(getCurrentId) {
@@ -36,3 +36,5 @@ export default function Accordion() {
     </>
   );
 }
+
+export default Accordion
