@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 const egUseState = () => {
-    const [name, setName] = useState("Thatcher");
+    const [name, setName] = useState("Thatcher"); // useState is a hook that allows you to have state variables in functional components.
     const [age, setAge] = useState(20);
 
     const clickEvent = () => {
         // Toggle between different names and ages on each click
-        setName(name === "Thatcher" ? "Sriram" : "Thatcher");
+        setName(name === "Thatcher" ? "Sriram" : "Thatcher"); // If name is Thatcher, change it to Sriram, else change it to Thatcher
         setAge(age === 20 ? 22 : 20);
     }
 
@@ -18,5 +18,5 @@ const egUseState = () => {
         </div>
     );
 }
-{name}
+
 export default egUseState;

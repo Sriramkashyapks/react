@@ -2,13 +2,13 @@ import { useState } from "react";
 
 const hooks = () => {
 
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(0); // useState is a hook that allows you to have state variables in functional components.
 
-    const addValue = () => {
+    const addValue = () => { // This function will increase the value of the counter by 1
         setCounter(counter + 1);
     }
 
-    const decreaseValue = () => {
+    const decreaseValue = () => { // This function will decrease the value of the counter by 1
         setCounter(counter - 1);
     }
 
