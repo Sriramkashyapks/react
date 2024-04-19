@@ -1,6 +1,7 @@
 import Hooks from './hooks'
 import EgUseState from './egUseState.jsx'
 import EgOnchange from './egOnchange.jsx'
+import ColorPicker from './colorPicker.jsx'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
      {/* <Hooks/> */}
      {/* <EgUseState/> */}
       {/* <EgOnchange/> */}
+      <ColorPicker/>
     </>
   )
 }
