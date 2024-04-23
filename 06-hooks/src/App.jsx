@@ -2,6 +2,9 @@ import Hooks from './hooks'
 import EgUseState from './egUseState.jsx'
 import EgOnchange from './egOnchange.jsx'
 import ColorPicker from './colorPicker.jsx'
+import Counter from './Counter.jsx'
+import UseEffect from './egUseEffect.jsx'
+import UseRef from './egUseRef.jsx'
 
 function App() {
 
@@ -10,7 +13,10 @@ function App() {
      {/* <Hooks/> */}
      {/* <EgUseState/> */}
       {/* <EgOnchange/> */}
-      <ColorPicker/>
+      {/* <ColorPicker/> */}
+      {/* <Counter/> */}
+      {/* <UseEffect/> */}
+      <UseRef/>
     </>
   )
 }
