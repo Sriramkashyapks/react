@@ -14,7 +14,7 @@ function egUseRef() {
     }
     
     useEffect(() => {
-        a.current = a.current + 1;
+        a.current = a.current + 1; //a = a+1
       console.log(`rerendering, The value of a is ${a.current}`);
       ref.current.style.backgroundColor = 'red';
 

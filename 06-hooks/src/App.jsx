@@ -5,6 +5,7 @@ import ColorPicker from './colorPicker.jsx'
 import Counter from './Counter.jsx'
 import UseEffect from './egUseEffect.jsx'
 import UseRef from './egUseRef.jsx'
+import ConditionalRendering from './conditionalRendering.jsx'
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
       {/* <ColorPicker/> */}
       {/* <Counter/> */}
       {/* <UseEffect/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <ConditionalRendering/>
+
     </>
   )
 }
