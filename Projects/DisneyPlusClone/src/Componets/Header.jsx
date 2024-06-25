@@ -1,7 +1,7 @@
 // This file keeps the content of header 
 
 import React, { useState } from "react";
-import logo from "./../assets/Images/logo.png";
+import logo from "../assets/Images/logo.png";
 import {
   HiHome,
   HiMagnifyingGlass,
